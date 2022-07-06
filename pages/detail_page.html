@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../frontend/libraries/bootstrap/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../frontend/styles/main.css">
+    <link rel="stylesheet" href="../frontend/libraries/xzoom/xzoom.css">
+    
+    <title>Detail</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed top">
+          <div class="container">
+            <a class="navbar-brand" href="#">RnB'BAGSTORE</a>
+            <a class="navbar-brand" href="#"><img src="../frontend/img/23.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/Detail_Page.html">Products</a>
+              </li>
+          </ul>
+          <!-- Desktop Menu -->
+          <ul class="navbar-nav d-none d-lg-flex">
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link mt-2" id="navbarDropdown" role="button" data-toggle="dropdown">
+                <img src="../frontend/img/21.png" alt="icon user" class="rounded-circle mr-2 profile-picture">
+                Hi, RnB
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link d-inline-block">
+                <img src="../frontend/img/22.png" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Content -->
+  <div class="page-content page-details">
+    <section class="bag-breadcrumbs">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav>
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="">Home</a>
+                  </li>
+                  <li class="breadcrumb-item active">
+                    Product Details
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bag-gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 col-md-8">
+            <div class="xzoom-container">
+              <img 
+                src="../frontend/img/24.png" 
+                class="xzoom w-100 main-image d-block" 
+                id="xzoom-default"
+                xoriginal="../frontend/img/24.png">
+            </div>
+          </div>
+          <div class="col-2 col-md-2">
+            <div class="xzoom-thumbs">
+              <a href="../frontend/img/24.png">
+                <img src="../frontend/img/24.png" class="xzoom-gallery w-100" xpreview="../frontend/img/24.png">
+              </a>
+              <a href="../frontend/img/24.png">
+                <img src="../frontend/img/24.png" class="xzoom-gallery w-100 mt-2" xpreview="../frontend/img/24.png">
+              <a href="../frontend/img/24.png">
+                <img src="../frontend/img/24.png" class="xzoom-gallery w-100 mt-2" xpreview="../frontend/img/24.png">
+              <a href="../frontend/img/24.png">
+                <img src="../frontend/img/24.png" class="xzoom-gallery w-100 mt-2" xpreview="../frontend/img/24.png">
+              </a>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br><br><br><br>
+
+    <section class="bag-heading mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h1>About the Bag</h1>
+            <p>Tas adalah sebuah benda yang memiliki peran penting dalam kehidupan manusia. Tas dapat digunakan sebagai tempat dimana kita dapat meletakkan barang milik kita. Tas dapat dibawa kemana-mana dan tas juga memiliki banyak warna dan bahan yang berbeda-beda.</p>
+
+            <p>Kelebihan dari tas adalah  tas dapat membuat kita bisa meletakkan sesuatu dan bahkan membawa nya ke suatu tempat tanpa masalah.Tas bisa meningkatkan keindahan atau kecantikan dari orang yang memakainya. Tas juga memiliki banyak harga yang berbeda-beda mulai dari yang termurah sampai yang termahal.</p>
+            
+          </div>
+          <div class="col-lg-4">
+            <div class="card bordered p-5">
+              <h5 class="booking-title">Booking Bag</h5>
+              <h2 class="booking-price">Rp.1.999.999</h2>
+              <p class="mb-0 subtitle">color</p>
+              <div class="input-number">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="size">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text plus"> 
+                      <img src="../frontend/img/25.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <p class="mb-0 subtitle">Size</p>
+              <div class="input-number">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text minus">
+                      -
+                    </div>
+                  </div>
+                  <input type="text" class="form-control" placeholder="size">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text plus">
+                      +
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="../Booking_Page1.html" class="btn btn-md btn-dark btn-block mt-5 btn-booking">Continue to Book</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- Akhir Page Content -->
+
+  <!-- Popular Products -->
+  <section class="popular-products">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex section-title">
+                    <h4>Popular</h4>
+                    <h4>&nbsp;Products</h4>
+                </div>
+            </div>
+        </div>
+      <div class="row">
+        <div class="row">
+          <div class="col-3">
+              <a href="#" class="component-product d-block">
+                  <div class="products-img mb-4">
+                       <img src="../frontend/img/7.png" alt="" class="w-100">
+                  </div>
+                  <div class="products-text mb-2">
+                      Shoulder Bag
+                  </div>
+                  <div class="products-price">
+                      Rp.899.900
+                  </div>
+              </a>
+          </div>
+          <div class="col-3">
+              <a href="#" class="component-product d-block">
+                  <div class="products-img mb-4">
+                    <img src="../frontend/img/8.png" alt="" class="w-100">
+                  </div>
+                  <div class="products-text mb-2">
+                      Sling Bag
+                  </div>
+                  <div class="products-price">
+                      Rp.999.999
+                  </div>
+              </a>
+          </div>
+          <div class="col-3">
+              <a href="#" class="component-product d-block">
+                  <div class="products-img mb-4">
+                    <img src="../frontend/img/9.png" alt="" class="w-100">
+                  </div>
+                  <div class="products-text mb-2">
+                      Gucci Clutch Bag
+                  </div>
+                  <div class="products-price">
+                      Rp.499.999
+                  </div>
+              </a>
+          </div>
+          <div class="col-3">
+              <a href="#" class="component-product d-block">
+                  <div class="products-img mb-4">
+                    <img src="../frontend/img/10.png" alt="" class="w-100">
+                  </div>
+                  <div class="products-text mb-2">
+                      Canvas Tote Bag
+                  </div>
+                  <div class="products-price">
+                      Rp.899.999
+                  </div>
+              </a>
+          </div>
+          <div class="col-3">
+              <a href="#" class="component-product d-block">
+                  <div class="products-img mb-4">
+                    <img src="../frontend/img/11.png" alt="" class="w-100">
+                  </div>
+                  <div class="products-text mb-2">
+                      Dior Sholder Bag
+                  </div>
+                  <div class="products-price">
+                      Rp.1.999.999
+                  </div>
+              </a>
+          </div>
+          <div class="col-3">
+              <a href="#" class="component-product d-block">
+                  <div class="products-img mb-4">
+                    <img src="../frontend/img/12.png" alt="" class="w-100">
+                  </div>
+                  <div class="products-text mb-2">
+                      Celine Sling Bag
+                  </div>
+                  <div class="products-price">
+                      Rp.599.999
+                  </div>
+              </a>
+          </div>
+          <div class="col-3">
+              <a href="#" class="component-product d-block">
+                  <div class="products-img mb-4">
+                    <img src="../frontend/img/13.png" alt="" class="w-100">
+                  </div>
+                  <div class="products-text mb-2">
+                      Louis Vuitton Clutch Bag
+                  </div>
+                  <div class="products-price">
+                      Rp.499.999
+                  </div>
+              </a>
+          </div>
+          <div class="col-3">
+              <a href="#" class="component-product d-block">
+                  <div class="products-img mb-4">
+                    <img src="../frontend/img/14.png" alt="" class="w-100">
+                  </div>
+                  <div class="products-text mb-2">
+                      Charles & Keith Tote Bag
+                  </div>
+                  <div class="products-price">
+                      Rp.899.999
+                  </div>
+              </a>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- Tutup Popular Product -->
+
+<!-- Testimonial -->   
+<section class="testimonial">
+  <div class="container">
+      <div class="row">
+          <div class="col-4">
+              <div class="testimonial-hero">
+                  <img src="../frontend/img/16.png" class="testimonial-img">
+                  <img src="../frontend/img/15.png" class="testimonial-frame">
+              </div>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-7 my-auto">
+              <div class="stars">
+                  <img src="../frontend/img/17.png">
+              </div>
+              <h2 class="testimonial-text">BIKESTORE "GOES TO <br> CAMPUS" X UIR ...</h2>
+              <p class="testimonial-name">Berliana Syafitri, Nabilatul Insaniah dan Rahmi Welsifa Aprila, Progammer</p>
+              <a href="#" class="btn btn-testimonial">Read Story</a>
+          </div>
+      </div>
+  </div>
+</section>   
+<!-- Tutup Testimonial -->      
+
+<!-- Footer -->
+<section>
+  <div class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-6">
+                  <h2>RnB'Bagstore</h2>
+                  <a href="#">
+                      <img src="../frontend/img/18.png">
+                  </a>
+                  <a href="#">
+                      <img src="../frontend/img/19.png">
+                  </a>
+                  <a href="#">
+                      <img src="../frontend/img/20.png">
+                  </a>
+              </div>
+              <div class="col-6 text-right">
+                  <h5>Address</h5>
+                  <p>Jl. Kaharuddin Nasution No.01,<br> Kecamatan Marpoyan Damai, Pekanbaru,Riau 28282 <br> 0812 - 12345 - 6789</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="footer-small py-2">
+      <div class="row">
+          <div class="col-12">
+              <p>2020 Copyright  <a href="#">Bagstores</a>. All Right Reserved</p>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Tutup Footer -->
+
+<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+
+</body>
+</html>
